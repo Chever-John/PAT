@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/softengineering/Code/cpp/PAT/PAT/20210206/testvector.cpp
+iostream
+-
+cstdio
+-
+vector
+-
+

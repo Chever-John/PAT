@@ -1,0 +1,5 @@
+D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/CMakeFiles/1098.dir
+D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/CMakeFiles/Test.dir
+D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/CMakeFiles/testvector.dir
+D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/CMakeFiles/edit_cache.dir
