@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -96,6 +85,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,59 +168,299 @@ testvector/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\testvector.dir\build.make CMakeFiles/testvector.dir/build
 .PHONY : testvector/fast
 
-20210206/1098.obj: 20210206/1098.cpp.obj
+#=============================================================================
+# Target rules for targets named 1091
 
-.PHONY : 20210206/1098.obj
+# Build rule for target.
+1091: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1091
+.PHONY : 1091
+
+# fast build rule for target.
+1091/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1091.dir\build.make CMakeFiles/1091.dir/build
+.PHONY : 1091/fast
+
+#=============================================================================
+# Target rules for targets named BFS
+
+# Build rule for target.
+BFS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BFS
+.PHONY : BFS
+
+# fast build rule for target.
+BFS/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BFS.dir\build.make CMakeFiles/BFS.dir/build
+.PHONY : BFS/fast
+
+#=============================================================================
+# Target rules for targets named justforfun
+
+# Build rule for target.
+justforfun: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 justforfun
+.PHONY : justforfun
+
+# fast build rule for target.
+justforfun/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\justforfun.dir\build.make CMakeFiles/justforfun.dir/build
+.PHONY : justforfun/fast
+
+#=============================================================================
+# Target rules for targets named 1001
+
+# Build rule for target.
+1001: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1001
+.PHONY : 1001
+
+# fast build rule for target.
+1001/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1001.dir\build.make CMakeFiles/1001.dir/build
+.PHONY : 1001/fast
+
+#=============================================================================
+# Target rules for targets named testsprintf
+
+# Build rule for target.
+testsprintf: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 testsprintf
+.PHONY : testsprintf
+
+# fast build rule for target.
+testsprintf/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testsprintf.dir\build.make CMakeFiles/testsprintf.dir/build
+.PHONY : testsprintf/fast
+
+#=============================================================================
+# Target rules for targets named 10001
+
+# Build rule for target.
+10001: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 10001
+.PHONY : 10001
+
+# fast build rule for target.
+10001/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10001.dir\build.make CMakeFiles/10001.dir/build
+.PHONY : 10001/fast
+
+1001/10001.obj: 1001/10001.cpp.obj
+
+.PHONY : 1001/10001.obj
 
 # target to build an object file
-20210206/1098.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1098.dir\build.make CMakeFiles/1098.dir/20210206/1098.cpp.obj
-.PHONY : 20210206/1098.cpp.obj
+1001/10001.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10001.dir\build.make CMakeFiles/10001.dir/1001/10001.cpp.obj
+.PHONY : 1001/10001.cpp.obj
 
-20210206/1098.i: 20210206/1098.cpp.i
+1001/10001.i: 1001/10001.cpp.i
 
-.PHONY : 20210206/1098.i
+.PHONY : 1001/10001.i
 
 # target to preprocess a source file
-20210206/1098.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1098.dir\build.make CMakeFiles/1098.dir/20210206/1098.cpp.i
-.PHONY : 20210206/1098.cpp.i
+1001/10001.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10001.dir\build.make CMakeFiles/10001.dir/1001/10001.cpp.i
+.PHONY : 1001/10001.cpp.i
 
-20210206/1098.s: 20210206/1098.cpp.s
+1001/10001.s: 1001/10001.cpp.s
 
-.PHONY : 20210206/1098.s
+.PHONY : 1001/10001.s
 
 # target to generate assembly for a file
-20210206/1098.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1098.dir\build.make CMakeFiles/1098.dir/20210206/1098.cpp.s
-.PHONY : 20210206/1098.cpp.s
+1001/10001.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\10001.dir\build.make CMakeFiles/10001.dir/1001/10001.cpp.s
+.PHONY : 1001/10001.cpp.s
 
-20210206/testvector.obj: 20210206/testvector.cpp.obj
+1001/1001.obj: 1001/1001.cpp.obj
 
-.PHONY : 20210206/testvector.obj
+.PHONY : 1001/1001.obj
 
 # target to build an object file
-20210206/testvector.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testvector.dir\build.make CMakeFiles/testvector.dir/20210206/testvector.cpp.obj
-.PHONY : 20210206/testvector.cpp.obj
+1001/1001.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1001.dir\build.make CMakeFiles/1001.dir/1001/1001.cpp.obj
+.PHONY : 1001/1001.cpp.obj
 
-20210206/testvector.i: 20210206/testvector.cpp.i
+1001/1001.i: 1001/1001.cpp.i
 
-.PHONY : 20210206/testvector.i
+.PHONY : 1001/1001.i
 
 # target to preprocess a source file
-20210206/testvector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testvector.dir\build.make CMakeFiles/testvector.dir/20210206/testvector.cpp.i
-.PHONY : 20210206/testvector.cpp.i
+1001/1001.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1001.dir\build.make CMakeFiles/1001.dir/1001/1001.cpp.i
+.PHONY : 1001/1001.cpp.i
 
-20210206/testvector.s: 20210206/testvector.cpp.s
+1001/1001.s: 1001/1001.cpp.s
 
-.PHONY : 20210206/testvector.s
+.PHONY : 1001/1001.s
 
 # target to generate assembly for a file
-20210206/testvector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testvector.dir\build.make CMakeFiles/testvector.dir/20210206/testvector.cpp.s
-.PHONY : 20210206/testvector.cpp.s
+1001/1001.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1001.dir\build.make CMakeFiles/1001.dir/1001/1001.cpp.s
+.PHONY : 1001/1001.cpp.s
+
+1001/testsprintf.obj: 1001/testsprintf.cpp.obj
+
+.PHONY : 1001/testsprintf.obj
+
+# target to build an object file
+1001/testsprintf.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testsprintf.dir\build.make CMakeFiles/testsprintf.dir/1001/testsprintf.cpp.obj
+.PHONY : 1001/testsprintf.cpp.obj
+
+1001/testsprintf.i: 1001/testsprintf.cpp.i
+
+.PHONY : 1001/testsprintf.i
+
+# target to preprocess a source file
+1001/testsprintf.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testsprintf.dir\build.make CMakeFiles/testsprintf.dir/1001/testsprintf.cpp.i
+.PHONY : 1001/testsprintf.cpp.i
+
+1001/testsprintf.s: 1001/testsprintf.cpp.s
+
+.PHONY : 1001/testsprintf.s
+
+# target to generate assembly for a file
+1001/testsprintf.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testsprintf.dir\build.make CMakeFiles/testsprintf.dir/1001/testsprintf.cpp.s
+.PHONY : 1001/testsprintf.cpp.s
+
+1091/1091.obj: 1091/1091.cpp.obj
+
+.PHONY : 1091/1091.obj
+
+# target to build an object file
+1091/1091.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1091.dir\build.make CMakeFiles/1091.dir/1091/1091.cpp.obj
+.PHONY : 1091/1091.cpp.obj
+
+1091/1091.i: 1091/1091.cpp.i
+
+.PHONY : 1091/1091.i
+
+# target to preprocess a source file
+1091/1091.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1091.dir\build.make CMakeFiles/1091.dir/1091/1091.cpp.i
+.PHONY : 1091/1091.cpp.i
+
+1091/1091.s: 1091/1091.cpp.s
+
+.PHONY : 1091/1091.s
+
+# target to generate assembly for a file
+1091/1091.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1091.dir\build.make CMakeFiles/1091.dir/1091/1091.cpp.s
+.PHONY : 1091/1091.cpp.s
+
+1091/BFS/BFS.obj: 1091/BFS/BFS.cpp.obj
+
+.PHONY : 1091/BFS/BFS.obj
+
+# target to build an object file
+1091/BFS/BFS.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BFS.dir\build.make CMakeFiles/BFS.dir/1091/BFS/BFS.cpp.obj
+.PHONY : 1091/BFS/BFS.cpp.obj
+
+1091/BFS/BFS.i: 1091/BFS/BFS.cpp.i
+
+.PHONY : 1091/BFS/BFS.i
+
+# target to preprocess a source file
+1091/BFS/BFS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BFS.dir\build.make CMakeFiles/BFS.dir/1091/BFS/BFS.cpp.i
+.PHONY : 1091/BFS/BFS.cpp.i
+
+1091/BFS/BFS.s: 1091/BFS/BFS.cpp.s
+
+.PHONY : 1091/BFS/BFS.s
+
+# target to generate assembly for a file
+1091/BFS/BFS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BFS.dir\build.make CMakeFiles/BFS.dir/1091/BFS/BFS.cpp.s
+.PHONY : 1091/BFS/BFS.cpp.s
+
+1098/1098.obj: 1098/1098.cpp.obj
+
+.PHONY : 1098/1098.obj
+
+# target to build an object file
+1098/1098.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1098.dir\build.make CMakeFiles/1098.dir/1098/1098.cpp.obj
+.PHONY : 1098/1098.cpp.obj
+
+1098/1098.i: 1098/1098.cpp.i
+
+.PHONY : 1098/1098.i
+
+# target to preprocess a source file
+1098/1098.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1098.dir\build.make CMakeFiles/1098.dir/1098/1098.cpp.i
+.PHONY : 1098/1098.cpp.i
+
+1098/1098.s: 1098/1098.cpp.s
+
+.PHONY : 1098/1098.s
+
+# target to generate assembly for a file
+1098/1098.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1098.dir\build.make CMakeFiles/1098.dir/1098/1098.cpp.s
+.PHONY : 1098/1098.cpp.s
+
+1098/testvector.obj: 1098/testvector.cpp.obj
+
+.PHONY : 1098/testvector.obj
+
+# target to build an object file
+1098/testvector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testvector.dir\build.make CMakeFiles/testvector.dir/1098/testvector.cpp.obj
+.PHONY : 1098/testvector.cpp.obj
+
+1098/testvector.i: 1098/testvector.cpp.i
+
+.PHONY : 1098/testvector.i
+
+# target to preprocess a source file
+1098/testvector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testvector.dir\build.make CMakeFiles/testvector.dir/1098/testvector.cpp.i
+.PHONY : 1098/testvector.cpp.i
+
+1098/testvector.s: 1098/testvector.cpp.s
+
+.PHONY : 1098/testvector.s
+
+# target to generate assembly for a file
+1098/testvector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testvector.dir\build.make CMakeFiles/testvector.dir/1098/testvector.cpp.s
+.PHONY : 1098/testvector.cpp.s
+
+for_fun/justforfun.obj: for_fun/justforfun.cpp.obj
+
+.PHONY : for_fun/justforfun.obj
+
+# target to build an object file
+for_fun/justforfun.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\justforfun.dir\build.make CMakeFiles/justforfun.dir/for_fun/justforfun.cpp.obj
+.PHONY : for_fun/justforfun.cpp.obj
+
+for_fun/justforfun.i: for_fun/justforfun.cpp.i
+
+.PHONY : for_fun/justforfun.i
+
+# target to preprocess a source file
+for_fun/justforfun.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\justforfun.dir\build.make CMakeFiles/justforfun.dir/for_fun/justforfun.cpp.i
+.PHONY : for_fun/justforfun.cpp.i
+
+for_fun/justforfun.s: for_fun/justforfun.cpp.s
+
+.PHONY : for_fun/justforfun.s
+
+# target to generate assembly for a file
+for_fun/justforfun.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\justforfun.dir\build.make CMakeFiles/justforfun.dir/for_fun/justforfun.cpp.s
+.PHONY : for_fun/justforfun.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -257,15 +497,39 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... 10001
+	@echo ... 1001
+	@echo ... 1091
 	@echo ... 1098
+	@echo ... BFS
 	@echo ... Test
+	@echo ... justforfun
+	@echo ... testsprintf
 	@echo ... testvector
-	@echo ... 20210206/1098.obj
-	@echo ... 20210206/1098.i
-	@echo ... 20210206/1098.s
-	@echo ... 20210206/testvector.obj
-	@echo ... 20210206/testvector.i
-	@echo ... 20210206/testvector.s
+	@echo ... 1001/10001.obj
+	@echo ... 1001/10001.i
+	@echo ... 1001/10001.s
+	@echo ... 1001/1001.obj
+	@echo ... 1001/1001.i
+	@echo ... 1001/1001.s
+	@echo ... 1001/testsprintf.obj
+	@echo ... 1001/testsprintf.i
+	@echo ... 1001/testsprintf.s
+	@echo ... 1091/1091.obj
+	@echo ... 1091/1091.i
+	@echo ... 1091/1091.s
+	@echo ... 1091/BFS/BFS.obj
+	@echo ... 1091/BFS/BFS.i
+	@echo ... 1091/BFS/BFS.s
+	@echo ... 1098/1098.obj
+	@echo ... 1098/1098.i
+	@echo ... 1098/1098.s
+	@echo ... 1098/testvector.obj
+	@echo ... 1098/testvector.i
+	@echo ... 1098/testvector.s
+	@echo ... for_fun/justforfun.obj
+	@echo ... for_fun/justforfun.i
+	@echo ... for_fun/justforfun.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

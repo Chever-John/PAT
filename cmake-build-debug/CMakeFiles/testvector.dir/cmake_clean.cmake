@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/testvector.dir/20210206/testvector.cpp.obj"
+  "CMakeFiles/testvector.dir/1098/testvector.cpp.obj"
   "libtestvector.dll.a"
   "testvector.exe"
   "testvector.exe.manifest"

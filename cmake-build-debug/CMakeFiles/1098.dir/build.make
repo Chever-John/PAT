@@ -76,27 +76,27 @@ include CMakeFiles/1098.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/1098.dir/flags.make
 
-CMakeFiles/1098.dir/20210206/1098.cpp.obj: CMakeFiles/1098.dir/flags.make
-CMakeFiles/1098.dir/20210206/1098.cpp.obj: ../20210206/1098.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/1098.dir/20210206/1098.cpp.obj"
-	D:\software\mingwforvscode\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\1098.dir\20210206\1098.cpp.obj -c D:\softengineering\Code\cpp\PAT\PAT\20210206\1098.cpp
+CMakeFiles/1098.dir/1098/1098.cpp.obj: CMakeFiles/1098.dir/flags.make
+CMakeFiles/1098.dir/1098/1098.cpp.obj: ../1098/1098.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/1098.dir/1098/1098.cpp.obj"
+	D:\software\mingwforvscode\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\1098.dir\1098\1098.cpp.obj -c D:\softengineering\Code\cpp\PAT\PAT\1098\1098.cpp
 
-CMakeFiles/1098.dir/20210206/1098.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1098.dir/20210206/1098.cpp.i"
-	D:\software\mingwforvscode\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\softengineering\Code\cpp\PAT\PAT\20210206\1098.cpp > CMakeFiles\1098.dir\20210206\1098.cpp.i
+CMakeFiles/1098.dir/1098/1098.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1098.dir/1098/1098.cpp.i"
+	D:\software\mingwforvscode\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\softengineering\Code\cpp\PAT\PAT\1098\1098.cpp > CMakeFiles\1098.dir\1098\1098.cpp.i
 
-CMakeFiles/1098.dir/20210206/1098.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1098.dir/20210206/1098.cpp.s"
-	D:\software\mingwforvscode\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\softengineering\Code\cpp\PAT\PAT\20210206\1098.cpp -o CMakeFiles\1098.dir\20210206\1098.cpp.s
+CMakeFiles/1098.dir/1098/1098.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1098.dir/1098/1098.cpp.s"
+	D:\software\mingwforvscode\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\softengineering\Code\cpp\PAT\PAT\1098\1098.cpp -o CMakeFiles\1098.dir\1098\1098.cpp.s
 
 # Object files for target 1098
 1098_OBJECTS = \
-"CMakeFiles/1098.dir/20210206/1098.cpp.obj"
+"CMakeFiles/1098.dir/1098/1098.cpp.obj"
 
 # External object files for target 1098
 1098_EXTERNAL_OBJECTS =
 
-1098.exe: CMakeFiles/1098.dir/20210206/1098.cpp.obj
+1098.exe: CMakeFiles/1098.dir/1098/1098.cpp.obj
 1098.exe: CMakeFiles/1098.dir/build.make
 1098.exe: CMakeFiles/1098.dir/linklibs.rsp
 1098.exe: CMakeFiles/1098.dir/objects1.rsp

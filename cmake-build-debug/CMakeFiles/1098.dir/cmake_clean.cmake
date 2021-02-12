@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "1098.exe"
   "1098.exe.manifest"
   "1098.pdb"
-  "CMakeFiles/1098.dir/20210206/1098.cpp.obj"
+  "CMakeFiles/1098.dir/1098/1098.cpp.obj"
   "lib1098.dll.a"
 )
 
