@@ -7,5 +7,8 @@ D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/CMakeFiles/justforfun.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/CMakeFiles/1001.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/CMakeFiles/testsprintf.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/CMakeFiles/10001.dir
+D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/CMakeFiles/headofgang.dir
+D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/CMakeFiles/headofgangexample.dir
+D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/CMakeFiles/practiceMap.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/CMakeFiles/rebuild_cache.dir

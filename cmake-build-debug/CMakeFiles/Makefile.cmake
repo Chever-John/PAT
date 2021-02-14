@@ -62,4 +62,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/1001.dir/DependInfo.cmake"
   "CMakeFiles/testsprintf.dir/DependInfo.cmake"
   "CMakeFiles/10001.dir/DependInfo.cmake"
+  "CMakeFiles/headofgang.dir/DependInfo.cmake"
+  "CMakeFiles/headofgangexample.dir/DependInfo.cmake"
+  "CMakeFiles/practiceMap.dir/DependInfo.cmake"
   )

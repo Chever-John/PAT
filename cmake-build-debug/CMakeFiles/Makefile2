@@ -81,6 +81,9 @@ all: CMakeFiles/justforfun.dir/all
 all: CMakeFiles/1001.dir/all
 all: CMakeFiles/testsprintf.dir/all
 all: CMakeFiles/10001.dir/all
+all: CMakeFiles/headofgang.dir/all
+all: CMakeFiles/headofgangexample.dir/all
+all: CMakeFiles/practiceMap.dir/all
 
 .PHONY : all
 
@@ -99,6 +102,9 @@ clean: CMakeFiles/justforfun.dir/clean
 clean: CMakeFiles/1001.dir/clean
 clean: CMakeFiles/testsprintf.dir/clean
 clean: CMakeFiles/10001.dir/clean
+clean: CMakeFiles/headofgang.dir/clean
+clean: CMakeFiles/headofgangexample.dir/clean
+clean: CMakeFiles/practiceMap.dir/clean
 
 .PHONY : clean
 
@@ -163,7 +169,7 @@ CMakeFiles/Test.dir/clean:
 CMakeFiles/testvector.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\testvector.dir\build.make CMakeFiles/testvector.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\testvector.dir\build.make CMakeFiles/testvector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target testvector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target testvector"
 .PHONY : CMakeFiles/testvector.dir/all
 
 # Build rule for subdir invocation for target.
@@ -244,7 +250,7 @@ CMakeFiles/BFS.dir/clean:
 CMakeFiles/justforfun.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\justforfun.dir\build.make CMakeFiles/justforfun.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\justforfun.dir\build.make CMakeFiles/justforfun.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target justforfun"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target justforfun"
 .PHONY : CMakeFiles/justforfun.dir/all
 
 # Build rule for subdir invocation for target.
@@ -298,7 +304,7 @@ CMakeFiles/1001.dir/clean:
 CMakeFiles/testsprintf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\testsprintf.dir\build.make CMakeFiles/testsprintf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\testsprintf.dir\build.make CMakeFiles/testsprintf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target testsprintf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target testsprintf"
 .PHONY : CMakeFiles/testsprintf.dir/all
 
 # Build rule for subdir invocation for target.
@@ -344,6 +350,87 @@ CMakeFiles/10001.dir/rule: cmake_check_build_system
 CMakeFiles/10001.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10001.dir\build.make CMakeFiles/10001.dir/clean
 .PHONY : CMakeFiles/10001.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/headofgang.dir
+
+# All Build rule for target.
+CMakeFiles/headofgang.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\headofgang.dir\build.make CMakeFiles/headofgang.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\headofgang.dir\build.make CMakeFiles/headofgang.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target headofgang"
+.PHONY : CMakeFiles/headofgang.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/headofgang.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/headofgang.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/headofgang.dir/rule
+
+# Convenience name for target.
+headofgang: CMakeFiles/headofgang.dir/rule
+
+.PHONY : headofgang
+
+# clean rule for target.
+CMakeFiles/headofgang.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\headofgang.dir\build.make CMakeFiles/headofgang.dir/clean
+.PHONY : CMakeFiles/headofgang.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/headofgangexample.dir
+
+# All Build rule for target.
+CMakeFiles/headofgangexample.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\headofgangexample.dir\build.make CMakeFiles/headofgangexample.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\headofgangexample.dir\build.make CMakeFiles/headofgangexample.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target headofgangexample"
+.PHONY : CMakeFiles/headofgangexample.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/headofgangexample.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/headofgangexample.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/headofgangexample.dir/rule
+
+# Convenience name for target.
+headofgangexample: CMakeFiles/headofgangexample.dir/rule
+
+.PHONY : headofgangexample
+
+# clean rule for target.
+CMakeFiles/headofgangexample.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\headofgangexample.dir\build.make CMakeFiles/headofgangexample.dir/clean
+.PHONY : CMakeFiles/headofgangexample.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/practiceMap.dir
+
+# All Build rule for target.
+CMakeFiles/practiceMap.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practiceMap.dir\build.make CMakeFiles/practiceMap.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practiceMap.dir\build.make CMakeFiles/practiceMap.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target practiceMap"
+.PHONY : CMakeFiles/practiceMap.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/practiceMap.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/practiceMap.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/practiceMap.dir/rule
+
+# Convenience name for target.
+practiceMap: CMakeFiles/practiceMap.dir/rule
+
+.PHONY : practiceMap
+
+# clean rule for target.
+CMakeFiles/practiceMap.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practiceMap.dir\build.make CMakeFiles/practiceMap.dir/clean
+.PHONY : CMakeFiles/practiceMap.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

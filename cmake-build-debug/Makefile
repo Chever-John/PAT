@@ -246,6 +246,45 @@ testsprintf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\10001.dir\build.make CMakeFiles/10001.dir/build
 .PHONY : 10001/fast
 
+#=============================================================================
+# Target rules for targets named headofgang
+
+# Build rule for target.
+headofgang: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 headofgang
+.PHONY : headofgang
+
+# fast build rule for target.
+headofgang/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\headofgang.dir\build.make CMakeFiles/headofgang.dir/build
+.PHONY : headofgang/fast
+
+#=============================================================================
+# Target rules for targets named headofgangexample
+
+# Build rule for target.
+headofgangexample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 headofgangexample
+.PHONY : headofgangexample
+
+# fast build rule for target.
+headofgangexample/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\headofgangexample.dir\build.make CMakeFiles/headofgangexample.dir/build
+.PHONY : headofgangexample/fast
+
+#=============================================================================
+# Target rules for targets named practiceMap
+
+# Build rule for target.
+practiceMap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 practiceMap
+.PHONY : practiceMap
+
+# fast build rule for target.
+practiceMap/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practiceMap.dir\build.make CMakeFiles/practiceMap.dir/build
+.PHONY : practiceMap/fast
+
 1001/10001.obj: 1001/10001.cpp.obj
 
 .PHONY : 1001/10001.obj
@@ -326,6 +365,87 @@ testsprintf/fast:
 1001/testsprintf.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\testsprintf.dir\build.make CMakeFiles/testsprintf.dir/1001/testsprintf.cpp.s
 .PHONY : 1001/testsprintf.cpp.s
+
+1034/headofgang.obj: 1034/headofgang.cpp.obj
+
+.PHONY : 1034/headofgang.obj
+
+# target to build an object file
+1034/headofgang.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\headofgang.dir\build.make CMakeFiles/headofgang.dir/1034/headofgang.cpp.obj
+.PHONY : 1034/headofgang.cpp.obj
+
+1034/headofgang.i: 1034/headofgang.cpp.i
+
+.PHONY : 1034/headofgang.i
+
+# target to preprocess a source file
+1034/headofgang.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\headofgang.dir\build.make CMakeFiles/headofgang.dir/1034/headofgang.cpp.i
+.PHONY : 1034/headofgang.cpp.i
+
+1034/headofgang.s: 1034/headofgang.cpp.s
+
+.PHONY : 1034/headofgang.s
+
+# target to generate assembly for a file
+1034/headofgang.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\headofgang.dir\build.make CMakeFiles/headofgang.dir/1034/headofgang.cpp.s
+.PHONY : 1034/headofgang.cpp.s
+
+1034/headofgangexample.obj: 1034/headofgangexample.cpp.obj
+
+.PHONY : 1034/headofgangexample.obj
+
+# target to build an object file
+1034/headofgangexample.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\headofgangexample.dir\build.make CMakeFiles/headofgangexample.dir/1034/headofgangexample.cpp.obj
+.PHONY : 1034/headofgangexample.cpp.obj
+
+1034/headofgangexample.i: 1034/headofgangexample.cpp.i
+
+.PHONY : 1034/headofgangexample.i
+
+# target to preprocess a source file
+1034/headofgangexample.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\headofgangexample.dir\build.make CMakeFiles/headofgangexample.dir/1034/headofgangexample.cpp.i
+.PHONY : 1034/headofgangexample.cpp.i
+
+1034/headofgangexample.s: 1034/headofgangexample.cpp.s
+
+.PHONY : 1034/headofgangexample.s
+
+# target to generate assembly for a file
+1034/headofgangexample.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\headofgangexample.dir\build.make CMakeFiles/headofgangexample.dir/1034/headofgangexample.cpp.s
+.PHONY : 1034/headofgangexample.cpp.s
+
+1034/practiceMap.obj: 1034/practiceMap.cpp.obj
+
+.PHONY : 1034/practiceMap.obj
+
+# target to build an object file
+1034/practiceMap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practiceMap.dir\build.make CMakeFiles/practiceMap.dir/1034/practiceMap.cpp.obj
+.PHONY : 1034/practiceMap.cpp.obj
+
+1034/practiceMap.i: 1034/practiceMap.cpp.i
+
+.PHONY : 1034/practiceMap.i
+
+# target to preprocess a source file
+1034/practiceMap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practiceMap.dir\build.make CMakeFiles/practiceMap.dir/1034/practiceMap.cpp.i
+.PHONY : 1034/practiceMap.cpp.i
+
+1034/practiceMap.s: 1034/practiceMap.cpp.s
+
+.PHONY : 1034/practiceMap.s
+
+# target to generate assembly for a file
+1034/practiceMap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\practiceMap.dir\build.make CMakeFiles/practiceMap.dir/1034/practiceMap.cpp.s
+.PHONY : 1034/practiceMap.cpp.s
 
 1091/1091.obj: 1091/1091.cpp.obj
 
@@ -503,7 +623,10 @@ help:
 	@echo ... 1098
 	@echo ... BFS
 	@echo ... Test
+	@echo ... headofgang
+	@echo ... headofgangexample
 	@echo ... justforfun
+	@echo ... practiceMap
 	@echo ... testsprintf
 	@echo ... testvector
 	@echo ... 1001/10001.obj
@@ -515,6 +638,15 @@ help:
 	@echo ... 1001/testsprintf.obj
 	@echo ... 1001/testsprintf.i
 	@echo ... 1001/testsprintf.s
+	@echo ... 1034/headofgang.obj
+	@echo ... 1034/headofgang.i
+	@echo ... 1034/headofgang.s
+	@echo ... 1034/headofgangexample.obj
+	@echo ... 1034/headofgangexample.i
+	@echo ... 1034/headofgangexample.s
+	@echo ... 1034/practiceMap.obj
+	@echo ... 1034/practiceMap.i
+	@echo ... 1034/practiceMap.s
 	@echo ... 1091/1091.obj
 	@echo ... 1091/1091.i
 	@echo ... 1091/1091.s
