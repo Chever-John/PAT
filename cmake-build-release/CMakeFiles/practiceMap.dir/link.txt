@@ -1,0 +1,3 @@
+D:\software\CMake\bin\cmake.exe -E rm -f CMakeFiles\practiceMap.dir/objects.a
+D:\software\mingwforvscode\mingw64\bin\ar.exe cr CMakeFiles\practiceMap.dir/objects.a @CMakeFiles\practiceMap.dir\objects1.rsp
+D:\software\mingwforvscode\mingw64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\practiceMap.dir/objects.a -Wl,--no-whole-archive -o practiceMap.exe -Wl,--out-implib,libpracticeMap.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\practiceMap.dir\linklibs.rsp

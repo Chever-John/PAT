@@ -1,0 +1,3 @@
+D:\software\CMake\bin\cmake.exe -E rm -f CMakeFiles\headofgangexample.dir/objects.a
+D:\software\mingwforvscode\mingw64\bin\ar.exe cr CMakeFiles\headofgangexample.dir/objects.a @CMakeFiles\headofgangexample.dir\objects1.rsp
+D:\software\mingwforvscode\mingw64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\headofgangexample.dir/objects.a -Wl,--no-whole-archive -o headofgangexample.exe -Wl,--out-implib,libheadofgangexample.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\headofgangexample.dir\linklibs.rsp

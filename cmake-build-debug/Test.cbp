@@ -437,6 +437,48 @@
 					<DistClean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="1087">
+				<Option output="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/1087.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 1087"/>
+					<CompileFile command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1087/fast">
+				<Option output="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/1087.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 1087/fast"/>
+					<CompileFile command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="headofgangexample">
 				<Option output="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/headofgangexample.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug"/>
@@ -474,6 +516,48 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 headofgangexample/fast"/>
+					<CompileFile command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="111test0">
+				<Option output="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/111test0.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 111test0"/>
+					<CompileFile command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="111test0/fast">
+				<Option output="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/111test0.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 111test0/fast"/>
 					<CompileFile command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -521,6 +605,132 @@
 					<DistClean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="1053">
+				<Option output="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/1053.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 1053"/>
+					<CompileFile command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1053/fast">
+				<Option output="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/1053.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 1053/fast"/>
+					<CompileFile command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cppusescanf">
+				<Option output="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/cppusescanf.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 cppusescanf"/>
+					<CompileFile command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cppusescanf/fast">
+				<Option output="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/cppusescanf.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 cppusescanf/fast"/>
+					<CompileFile command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="111use_new">
+				<Option output="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/111use_new.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 111use_new"/>
+					<CompileFile command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="111use_new/fast">
+				<Option output="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/111use_new.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/software/mingwforvscode/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 111use_new/fast"/>
+					<CompileFile command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/software/mingwforvscode/mingw64/bin/mingw32-make.exe -f &quot;D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug"/>
 				<Option type="4"/>
@@ -560,6 +770,15 @@
 		<Unit filename="D:/softengineering/Code/cpp/PAT/PAT/1034/practiceMap.cpp">
 			<Option target="practiceMap"/>
 		</Unit>
+		<Unit filename="D:/softengineering/Code/cpp/PAT/PAT/1053/1053.cpp">
+			<Option target="1053"/>
+		</Unit>
+		<Unit filename="D:/softengineering/Code/cpp/PAT/PAT/1053/cppusescanf.cpp">
+			<Option target="cppusescanf"/>
+		</Unit>
+		<Unit filename="D:/softengineering/Code/cpp/PAT/PAT/1087/1087.cpp">
+			<Option target="1087"/>
+		</Unit>
 		<Unit filename="D:/softengineering/Code/cpp/PAT/PAT/1091/1091.cpp">
 			<Option target="1091"/>
 		</Unit>
@@ -571,6 +790,12 @@
 		</Unit>
 		<Unit filename="D:/softengineering/Code/cpp/PAT/PAT/1098/testvector.cpp">
 			<Option target="testvector"/>
+		</Unit>
+		<Unit filename="D:/softengineering/Code/cpp/PAT/PAT/111/111test0.cpp">
+			<Option target="111test0"/>
+		</Unit>
+		<Unit filename="D:/softengineering/Code/cpp/PAT/PAT/111/111use_new.cpp">
+			<Option target="111use_new"/>
 		</Unit>
 		<Unit filename="D:/softengineering/Code/cpp/PAT/PAT/for_fun/justforfun.cpp">
 			<Option target="justforfun"/>

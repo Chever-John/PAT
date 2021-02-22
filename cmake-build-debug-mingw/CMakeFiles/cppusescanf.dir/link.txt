@@ -1,0 +1,3 @@
+D:\software\CMake\bin\cmake.exe -E rm -f CMakeFiles\cppusescanf.dir/objects.a
+D:\software\mingwforvscode\mingw64\bin\ar.exe cr CMakeFiles\cppusescanf.dir/objects.a @CMakeFiles\cppusescanf.dir\objects1.rsp
+D:\software\mingwforvscode\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\cppusescanf.dir/objects.a -Wl,--no-whole-archive -o cppusescanf.exe -Wl,--out-implib,libcppusescanf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cppusescanf.dir\linklibs.rsp

@@ -1,0 +1,3 @@
+D:\software\CMake\bin\cmake.exe -E rm -f CMakeFiles\111test0.dir/objects.a
+D:\software\mingwforvscode\mingw64\bin\ar.exe cr CMakeFiles\111test0.dir/objects.a @CMakeFiles\111test0.dir\objects1.rsp
+D:\software\mingwforvscode\mingw64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\111test0.dir/objects.a -Wl,--no-whole-archive -o 111test0.exe -Wl,--out-implib,lib111test0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\111test0.dir\linklibs.rsp

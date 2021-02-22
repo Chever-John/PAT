@@ -260,6 +260,19 @@ headofgang/fast:
 .PHONY : headofgang/fast
 
 #=============================================================================
+# Target rules for targets named 1087
+
+# Build rule for target.
+1087: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1087
+.PHONY : 1087
+
+# fast build rule for target.
+1087/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1087.dir\build.make CMakeFiles/1087.dir/build
+.PHONY : 1087/fast
+
+#=============================================================================
 # Target rules for targets named headofgangexample
 
 # Build rule for target.
@@ -273,6 +286,19 @@ headofgangexample/fast:
 .PHONY : headofgangexample/fast
 
 #=============================================================================
+# Target rules for targets named 111test0
+
+# Build rule for target.
+111test0: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 111test0
+.PHONY : 111test0
+
+# fast build rule for target.
+111test0/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\111test0.dir\build.make CMakeFiles/111test0.dir/build
+.PHONY : 111test0/fast
+
+#=============================================================================
 # Target rules for targets named practiceMap
 
 # Build rule for target.
@@ -284,6 +310,45 @@ practiceMap: cmake_check_build_system
 practiceMap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\practiceMap.dir\build.make CMakeFiles/practiceMap.dir/build
 .PHONY : practiceMap/fast
+
+#=============================================================================
+# Target rules for targets named 1053
+
+# Build rule for target.
+1053: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1053
+.PHONY : 1053
+
+# fast build rule for target.
+1053/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1053.dir\build.make CMakeFiles/1053.dir/build
+.PHONY : 1053/fast
+
+#=============================================================================
+# Target rules for targets named cppusescanf
+
+# Build rule for target.
+cppusescanf: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cppusescanf
+.PHONY : cppusescanf
+
+# fast build rule for target.
+cppusescanf/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppusescanf.dir\build.make CMakeFiles/cppusescanf.dir/build
+.PHONY : cppusescanf/fast
+
+#=============================================================================
+# Target rules for targets named 111use_new
+
+# Build rule for target.
+111use_new: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 111use_new
+.PHONY : 111use_new
+
+# fast build rule for target.
+111use_new/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\111use_new.dir\build.make CMakeFiles/111use_new.dir/build
+.PHONY : 111use_new/fast
 
 1001/10001.obj: 1001/10001.cpp.obj
 
@@ -447,6 +512,87 @@ practiceMap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\practiceMap.dir\build.make CMakeFiles/practiceMap.dir/1034/practiceMap.cpp.s
 .PHONY : 1034/practiceMap.cpp.s
 
+1053/1053.obj: 1053/1053.cpp.obj
+
+.PHONY : 1053/1053.obj
+
+# target to build an object file
+1053/1053.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1053.dir\build.make CMakeFiles/1053.dir/1053/1053.cpp.obj
+.PHONY : 1053/1053.cpp.obj
+
+1053/1053.i: 1053/1053.cpp.i
+
+.PHONY : 1053/1053.i
+
+# target to preprocess a source file
+1053/1053.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1053.dir\build.make CMakeFiles/1053.dir/1053/1053.cpp.i
+.PHONY : 1053/1053.cpp.i
+
+1053/1053.s: 1053/1053.cpp.s
+
+.PHONY : 1053/1053.s
+
+# target to generate assembly for a file
+1053/1053.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1053.dir\build.make CMakeFiles/1053.dir/1053/1053.cpp.s
+.PHONY : 1053/1053.cpp.s
+
+1053/cppusescanf.obj: 1053/cppusescanf.cpp.obj
+
+.PHONY : 1053/cppusescanf.obj
+
+# target to build an object file
+1053/cppusescanf.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppusescanf.dir\build.make CMakeFiles/cppusescanf.dir/1053/cppusescanf.cpp.obj
+.PHONY : 1053/cppusescanf.cpp.obj
+
+1053/cppusescanf.i: 1053/cppusescanf.cpp.i
+
+.PHONY : 1053/cppusescanf.i
+
+# target to preprocess a source file
+1053/cppusescanf.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppusescanf.dir\build.make CMakeFiles/cppusescanf.dir/1053/cppusescanf.cpp.i
+.PHONY : 1053/cppusescanf.cpp.i
+
+1053/cppusescanf.s: 1053/cppusescanf.cpp.s
+
+.PHONY : 1053/cppusescanf.s
+
+# target to generate assembly for a file
+1053/cppusescanf.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppusescanf.dir\build.make CMakeFiles/cppusescanf.dir/1053/cppusescanf.cpp.s
+.PHONY : 1053/cppusescanf.cpp.s
+
+1087/1087.obj: 1087/1087.cpp.obj
+
+.PHONY : 1087/1087.obj
+
+# target to build an object file
+1087/1087.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1087.dir\build.make CMakeFiles/1087.dir/1087/1087.cpp.obj
+.PHONY : 1087/1087.cpp.obj
+
+1087/1087.i: 1087/1087.cpp.i
+
+.PHONY : 1087/1087.i
+
+# target to preprocess a source file
+1087/1087.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1087.dir\build.make CMakeFiles/1087.dir/1087/1087.cpp.i
+.PHONY : 1087/1087.cpp.i
+
+1087/1087.s: 1087/1087.cpp.s
+
+.PHONY : 1087/1087.s
+
+# target to generate assembly for a file
+1087/1087.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1087.dir\build.make CMakeFiles/1087.dir/1087/1087.cpp.s
+.PHONY : 1087/1087.cpp.s
+
 1091/1091.obj: 1091/1091.cpp.obj
 
 .PHONY : 1091/1091.obj
@@ -555,6 +701,60 @@ practiceMap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\testvector.dir\build.make CMakeFiles/testvector.dir/1098/testvector.cpp.s
 .PHONY : 1098/testvector.cpp.s
 
+111/111test0.obj: 111/111test0.cpp.obj
+
+.PHONY : 111/111test0.obj
+
+# target to build an object file
+111/111test0.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\111test0.dir\build.make CMakeFiles/111test0.dir/111/111test0.cpp.obj
+.PHONY : 111/111test0.cpp.obj
+
+111/111test0.i: 111/111test0.cpp.i
+
+.PHONY : 111/111test0.i
+
+# target to preprocess a source file
+111/111test0.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\111test0.dir\build.make CMakeFiles/111test0.dir/111/111test0.cpp.i
+.PHONY : 111/111test0.cpp.i
+
+111/111test0.s: 111/111test0.cpp.s
+
+.PHONY : 111/111test0.s
+
+# target to generate assembly for a file
+111/111test0.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\111test0.dir\build.make CMakeFiles/111test0.dir/111/111test0.cpp.s
+.PHONY : 111/111test0.cpp.s
+
+111/111use_new.obj: 111/111use_new.cpp.obj
+
+.PHONY : 111/111use_new.obj
+
+# target to build an object file
+111/111use_new.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\111use_new.dir\build.make CMakeFiles/111use_new.dir/111/111use_new.cpp.obj
+.PHONY : 111/111use_new.cpp.obj
+
+111/111use_new.i: 111/111use_new.cpp.i
+
+.PHONY : 111/111use_new.i
+
+# target to preprocess a source file
+111/111use_new.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\111use_new.dir\build.make CMakeFiles/111use_new.dir/111/111use_new.cpp.i
+.PHONY : 111/111use_new.cpp.i
+
+111/111use_new.s: 111/111use_new.cpp.s
+
+.PHONY : 111/111use_new.s
+
+# target to generate assembly for a file
+111/111use_new.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\111use_new.dir\build.make CMakeFiles/111use_new.dir/111/111use_new.cpp.s
+.PHONY : 111/111use_new.cpp.s
+
 for_fun/justforfun.obj: for_fun/justforfun.cpp.obj
 
 .PHONY : for_fun/justforfun.obj
@@ -619,10 +819,15 @@ help:
 	@echo ... rebuild_cache
 	@echo ... 10001
 	@echo ... 1001
+	@echo ... 1053
+	@echo ... 1087
 	@echo ... 1091
 	@echo ... 1098
+	@echo ... 111test0
+	@echo ... 111use_new
 	@echo ... BFS
 	@echo ... Test
+	@echo ... cppusescanf
 	@echo ... headofgang
 	@echo ... headofgangexample
 	@echo ... justforfun
@@ -647,6 +852,15 @@ help:
 	@echo ... 1034/practiceMap.obj
 	@echo ... 1034/practiceMap.i
 	@echo ... 1034/practiceMap.s
+	@echo ... 1053/1053.obj
+	@echo ... 1053/1053.i
+	@echo ... 1053/1053.s
+	@echo ... 1053/cppusescanf.obj
+	@echo ... 1053/cppusescanf.i
+	@echo ... 1053/cppusescanf.s
+	@echo ... 1087/1087.obj
+	@echo ... 1087/1087.i
+	@echo ... 1087/1087.s
 	@echo ... 1091/1091.obj
 	@echo ... 1091/1091.i
 	@echo ... 1091/1091.s
@@ -659,6 +873,12 @@ help:
 	@echo ... 1098/testvector.obj
 	@echo ... 1098/testvector.i
 	@echo ... 1098/testvector.s
+	@echo ... 111/111test0.obj
+	@echo ... 111/111test0.i
+	@echo ... 111/111test0.s
+	@echo ... 111/111use_new.obj
+	@echo ... 111/111use_new.i
+	@echo ... 111/111use_new.s
 	@echo ... for_fun/justforfun.obj
 	@echo ... for_fun/justforfun.i
 	@echo ... for_fun/justforfun.s
