@@ -80,15 +80,20 @@ all: CMakeFiles/justforfun.dir/all
 all: CMakeFiles/1001.dir/all
 all: CMakeFiles/testsprintf.dir/all
 all: CMakeFiles/10001.dir/all
+all: CMakeFiles/1005stack.dir/all
 all: CMakeFiles/headofgang.dir/all
 all: CMakeFiles/1087.dir/all
 all: CMakeFiles/headofgangexample.dir/all
+all: CMakeFiles/testforliyajun.dir/all
 all: CMakeFiles/111test0.dir/all
 all: CMakeFiles/practiceMap.dir/all
+all: CMakeFiles/1005castsecond.dir/all
 all: CMakeFiles/1053.dir/all
 all: CMakeFiles/cppusescanf.dir/all
 all: CMakeFiles/111use_new.dir/all
 all: CMakeFiles/spellitright.dir/all
+all: CMakeFiles/1005cast.dir/all
+all: CMakeFiles/1005spellvector.dir/all
 
 .PHONY : all
 
@@ -107,15 +112,20 @@ clean: CMakeFiles/justforfun.dir/clean
 clean: CMakeFiles/1001.dir/clean
 clean: CMakeFiles/testsprintf.dir/clean
 clean: CMakeFiles/10001.dir/clean
+clean: CMakeFiles/1005stack.dir/clean
 clean: CMakeFiles/headofgang.dir/clean
 clean: CMakeFiles/1087.dir/clean
 clean: CMakeFiles/headofgangexample.dir/clean
+clean: CMakeFiles/testforliyajun.dir/clean
 clean: CMakeFiles/111test0.dir/clean
 clean: CMakeFiles/practiceMap.dir/clean
+clean: CMakeFiles/1005castsecond.dir/clean
 clean: CMakeFiles/1053.dir/clean
 clean: CMakeFiles/cppusescanf.dir/clean
 clean: CMakeFiles/111use_new.dir/clean
 clean: CMakeFiles/spellitright.dir/clean
+clean: CMakeFiles/1005cast.dir/clean
+clean: CMakeFiles/1005spellvector.dir/clean
 
 .PHONY : clean
 
@@ -126,7 +136,7 @@ clean: CMakeFiles/spellitright.dir/clean
 CMakeFiles/1098.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1098.dir\build.make CMakeFiles/1098.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1098.dir\build.make CMakeFiles/1098.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=11,12 "Built target 1098"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=19,20 "Built target 1098"
 .PHONY : CMakeFiles/1098.dir/all
 
 # Build rule for subdir invocation for target.
@@ -153,7 +163,7 @@ CMakeFiles/1098.dir/clean:
 CMakeFiles/Test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=19,20 "Built target Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=27,28 "Built target Test"
 .PHONY : CMakeFiles/Test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -180,7 +190,7 @@ CMakeFiles/Test.dir/clean:
 CMakeFiles/testvector.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\testvector.dir\build.make CMakeFiles/testvector.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\testvector.dir\build.make CMakeFiles/testvector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=35,36 "Built target testvector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=45,46 "Built target testvector"
 .PHONY : CMakeFiles/testvector.dir/all
 
 # Build rule for subdir invocation for target.
@@ -207,7 +217,7 @@ CMakeFiles/testvector.dir/clean:
 CMakeFiles/1091.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1091.dir\build.make CMakeFiles/1091.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1091.dir\build.make CMakeFiles/1091.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=9,10 "Built target 1091"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=17,18 "Built target 1091"
 .PHONY : CMakeFiles/1091.dir/all
 
 # Build rule for subdir invocation for target.
@@ -234,7 +244,7 @@ CMakeFiles/1091.dir/clean:
 CMakeFiles/BFS.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BFS.dir\build.make CMakeFiles/BFS.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BFS.dir\build.make CMakeFiles/BFS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=17,18 "Built target BFS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=25,26 "Built target BFS"
 .PHONY : CMakeFiles/BFS.dir/all
 
 # Build rule for subdir invocation for target.
@@ -261,7 +271,7 @@ CMakeFiles/BFS.dir/clean:
 CMakeFiles/justforfun.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\justforfun.dir\build.make CMakeFiles/justforfun.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\justforfun.dir\build.make CMakeFiles/justforfun.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=27,28 "Built target justforfun"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=35,36 "Built target justforfun"
 .PHONY : CMakeFiles/justforfun.dir/all
 
 # Build rule for subdir invocation for target.
@@ -315,7 +325,7 @@ CMakeFiles/1001.dir/clean:
 CMakeFiles/testsprintf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\testsprintf.dir\build.make CMakeFiles/testsprintf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\testsprintf.dir\build.make CMakeFiles/testsprintf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=33,34 "Built target testsprintf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=43,44 "Built target testsprintf"
 .PHONY : CMakeFiles/testsprintf.dir/all
 
 # Build rule for subdir invocation for target.
@@ -363,13 +373,40 @@ CMakeFiles/10001.dir/clean:
 .PHONY : CMakeFiles/10001.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/1005stack.dir
+
+# All Build rule for target.
+CMakeFiles/1005stack.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005stack.dir\build.make CMakeFiles/1005stack.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005stack.dir\build.make CMakeFiles/1005stack.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=11,12 "Built target 1005stack"
+.PHONY : CMakeFiles/1005stack.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1005stack.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/1005stack.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles 0
+.PHONY : CMakeFiles/1005stack.dir/rule
+
+# Convenience name for target.
+1005stack: CMakeFiles/1005stack.dir/rule
+
+.PHONY : 1005stack
+
+# clean rule for target.
+CMakeFiles/1005stack.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005stack.dir\build.make CMakeFiles/1005stack.dir/clean
+.PHONY : CMakeFiles/1005stack.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/headofgang.dir
 
 # All Build rule for target.
 CMakeFiles/headofgang.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\headofgang.dir\build.make CMakeFiles/headofgang.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\headofgang.dir\build.make CMakeFiles/headofgang.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=23,24 "Built target headofgang"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=31,32 "Built target headofgang"
 .PHONY : CMakeFiles/headofgang.dir/all
 
 # Build rule for subdir invocation for target.
@@ -396,7 +433,7 @@ CMakeFiles/headofgang.dir/clean:
 CMakeFiles/1087.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1087.dir\build.make CMakeFiles/1087.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1087.dir\build.make CMakeFiles/1087.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=7,8 "Built target 1087"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=15,16 "Built target 1087"
 .PHONY : CMakeFiles/1087.dir/all
 
 # Build rule for subdir invocation for target.
@@ -423,7 +460,7 @@ CMakeFiles/1087.dir/clean:
 CMakeFiles/headofgangexample.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\headofgangexample.dir\build.make CMakeFiles/headofgangexample.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\headofgangexample.dir\build.make CMakeFiles/headofgangexample.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=25,26 "Built target headofgangexample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=33,34 "Built target headofgangexample"
 .PHONY : CMakeFiles/headofgangexample.dir/all
 
 # Build rule for subdir invocation for target.
@@ -444,13 +481,40 @@ CMakeFiles/headofgangexample.dir/clean:
 .PHONY : CMakeFiles/headofgangexample.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/testforliyajun.dir
+
+# All Build rule for target.
+CMakeFiles/testforliyajun.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testforliyajun.dir\build.make CMakeFiles/testforliyajun.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testforliyajun.dir\build.make CMakeFiles/testforliyajun.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=41,42 "Built target testforliyajun"
+.PHONY : CMakeFiles/testforliyajun.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/testforliyajun.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/testforliyajun.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles 0
+.PHONY : CMakeFiles/testforliyajun.dir/rule
+
+# Convenience name for target.
+testforliyajun: CMakeFiles/testforliyajun.dir/rule
+
+.PHONY : testforliyajun
+
+# clean rule for target.
+CMakeFiles/testforliyajun.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testforliyajun.dir\build.make CMakeFiles/testforliyajun.dir/clean
+.PHONY : CMakeFiles/testforliyajun.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/111test0.dir
 
 # All Build rule for target.
 CMakeFiles/111test0.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\111test0.dir\build.make CMakeFiles/111test0.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\111test0.dir\build.make CMakeFiles/111test0.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=13,14 "Built target 111test0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=21,22 "Built target 111test0"
 .PHONY : CMakeFiles/111test0.dir/all
 
 # Build rule for subdir invocation for target.
@@ -477,7 +541,7 @@ CMakeFiles/111test0.dir/clean:
 CMakeFiles/practiceMap.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\practiceMap.dir\build.make CMakeFiles/practiceMap.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\practiceMap.dir\build.make CMakeFiles/practiceMap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=29,30 "Built target practiceMap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=37,38 "Built target practiceMap"
 .PHONY : CMakeFiles/practiceMap.dir/all
 
 # Build rule for subdir invocation for target.
@@ -498,13 +562,40 @@ CMakeFiles/practiceMap.dir/clean:
 .PHONY : CMakeFiles/practiceMap.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/1005castsecond.dir
+
+# All Build rule for target.
+CMakeFiles/1005castsecond.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005castsecond.dir\build.make CMakeFiles/1005castsecond.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005castsecond.dir\build.make CMakeFiles/1005castsecond.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=7,8 "Built target 1005castsecond"
+.PHONY : CMakeFiles/1005castsecond.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1005castsecond.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/1005castsecond.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles 0
+.PHONY : CMakeFiles/1005castsecond.dir/rule
+
+# Convenience name for target.
+1005castsecond: CMakeFiles/1005castsecond.dir/rule
+
+.PHONY : 1005castsecond
+
+# clean rule for target.
+CMakeFiles/1005castsecond.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005castsecond.dir\build.make CMakeFiles/1005castsecond.dir/clean
+.PHONY : CMakeFiles/1005castsecond.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/1053.dir
 
 # All Build rule for target.
 CMakeFiles/1053.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1053.dir\build.make CMakeFiles/1053.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1053.dir\build.make CMakeFiles/1053.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=5,6 "Built target 1053"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=13,14 "Built target 1053"
 .PHONY : CMakeFiles/1053.dir/all
 
 # Build rule for subdir invocation for target.
@@ -531,7 +622,7 @@ CMakeFiles/1053.dir/clean:
 CMakeFiles/cppusescanf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppusescanf.dir\build.make CMakeFiles/cppusescanf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cppusescanf.dir\build.make CMakeFiles/cppusescanf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=21,22 "Built target cppusescanf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=29,30 "Built target cppusescanf"
 .PHONY : CMakeFiles/cppusescanf.dir/all
 
 # Build rule for subdir invocation for target.
@@ -558,7 +649,7 @@ CMakeFiles/cppusescanf.dir/clean:
 CMakeFiles/111use_new.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\111use_new.dir\build.make CMakeFiles/111use_new.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\111use_new.dir\build.make CMakeFiles/111use_new.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=15,16 "Built target 111use_new"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=23,24 "Built target 111use_new"
 .PHONY : CMakeFiles/111use_new.dir/all
 
 # Build rule for subdir invocation for target.
@@ -585,7 +676,7 @@ CMakeFiles/111use_new.dir/clean:
 CMakeFiles/spellitright.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spellitright.dir\build.make CMakeFiles/spellitright.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spellitright.dir\build.make CMakeFiles/spellitright.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=31,32 "Built target spellitright"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=39,40 "Built target spellitright"
 .PHONY : CMakeFiles/spellitright.dir/all
 
 # Build rule for subdir invocation for target.
@@ -604,6 +695,60 @@ spellitright: CMakeFiles/spellitright.dir/rule
 CMakeFiles/spellitright.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spellitright.dir\build.make CMakeFiles/spellitright.dir/clean
 .PHONY : CMakeFiles/spellitright.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1005cast.dir
+
+# All Build rule for target.
+CMakeFiles/1005cast.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005cast.dir\build.make CMakeFiles/1005cast.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005cast.dir\build.make CMakeFiles/1005cast.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=5,6 "Built target 1005cast"
+.PHONY : CMakeFiles/1005cast.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1005cast.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/1005cast.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles 0
+.PHONY : CMakeFiles/1005cast.dir/rule
+
+# Convenience name for target.
+1005cast: CMakeFiles/1005cast.dir/rule
+
+.PHONY : 1005cast
+
+# clean rule for target.
+CMakeFiles/1005cast.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005cast.dir\build.make CMakeFiles/1005cast.dir/clean
+.PHONY : CMakeFiles/1005cast.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/1005spellvector.dir
+
+# All Build rule for target.
+CMakeFiles/1005spellvector.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005spellvector.dir\build.make CMakeFiles/1005spellvector.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005spellvector.dir\build.make CMakeFiles/1005spellvector.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles --progress-num=9,10 "Built target 1005spellvector"
+.PHONY : CMakeFiles/1005spellvector.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1005spellvector.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/1005spellvector.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\softengineering\Code\cpp\PAT\PAT\cmake-build-debug-mingw\CMakeFiles 0
+.PHONY : CMakeFiles/1005spellvector.dir/rule
+
+# Convenience name for target.
+1005spellvector: CMakeFiles/1005spellvector.dir/rule
+
+.PHONY : 1005spellvector
+
+# clean rule for target.
+CMakeFiles/1005spellvector.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005spellvector.dir\build.make CMakeFiles/1005spellvector.dir/clean
+.PHONY : CMakeFiles/1005spellvector.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

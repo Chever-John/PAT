@@ -246,6 +246,19 @@ testsprintf/fast:
 .PHONY : 10001/fast
 
 #=============================================================================
+# Target rules for targets named 1005stack
+
+# Build rule for target.
+1005stack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1005stack
+.PHONY : 1005stack
+
+# fast build rule for target.
+1005stack/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005stack.dir\build.make CMakeFiles/1005stack.dir/build
+.PHONY : 1005stack/fast
+
+#=============================================================================
 # Target rules for targets named headofgang
 
 # Build rule for target.
@@ -285,6 +298,19 @@ headofgangexample/fast:
 .PHONY : headofgangexample/fast
 
 #=============================================================================
+# Target rules for targets named testforliyajun
+
+# Build rule for target.
+testforliyajun: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 testforliyajun
+.PHONY : testforliyajun
+
+# fast build rule for target.
+testforliyajun/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testforliyajun.dir\build.make CMakeFiles/testforliyajun.dir/build
+.PHONY : testforliyajun/fast
+
+#=============================================================================
 # Target rules for targets named 111test0
 
 # Build rule for target.
@@ -309,6 +335,19 @@ practiceMap: cmake_check_build_system
 practiceMap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\practiceMap.dir\build.make CMakeFiles/practiceMap.dir/build
 .PHONY : practiceMap/fast
+
+#=============================================================================
+# Target rules for targets named 1005castsecond
+
+# Build rule for target.
+1005castsecond: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1005castsecond
+.PHONY : 1005castsecond
+
+# fast build rule for target.
+1005castsecond/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005castsecond.dir\build.make CMakeFiles/1005castsecond.dir/build
+.PHONY : 1005castsecond/fast
 
 #=============================================================================
 # Target rules for targets named 1053
@@ -361,6 +400,32 @@ spellitright: cmake_check_build_system
 spellitright/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spellitright.dir\build.make CMakeFiles/spellitright.dir/build
 .PHONY : spellitright/fast
+
+#=============================================================================
+# Target rules for targets named 1005cast
+
+# Build rule for target.
+1005cast: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1005cast
+.PHONY : 1005cast
+
+# fast build rule for target.
+1005cast/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005cast.dir\build.make CMakeFiles/1005cast.dir/build
+.PHONY : 1005cast/fast
+
+#=============================================================================
+# Target rules for targets named 1005spellvector
+
+# Build rule for target.
+1005spellvector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1005spellvector
+.PHONY : 1005spellvector
+
+# fast build rule for target.
+1005spellvector/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005spellvector.dir\build.make CMakeFiles/1005spellvector.dir/build
+.PHONY : 1005spellvector/fast
 
 1001/10001.obj: 1001/10001.cpp.obj
 
@@ -442,6 +507,114 @@ spellitright/fast:
 1001/testsprintf.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\testsprintf.dir\build.make CMakeFiles/testsprintf.dir/1001/testsprintf.cpp.s
 .PHONY : 1001/testsprintf.cpp.s
+
+1005/1005cast.obj: 1005/1005cast.cpp.obj
+
+.PHONY : 1005/1005cast.obj
+
+# target to build an object file
+1005/1005cast.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005cast.dir\build.make CMakeFiles/1005cast.dir/1005/1005cast.cpp.obj
+.PHONY : 1005/1005cast.cpp.obj
+
+1005/1005cast.i: 1005/1005cast.cpp.i
+
+.PHONY : 1005/1005cast.i
+
+# target to preprocess a source file
+1005/1005cast.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005cast.dir\build.make CMakeFiles/1005cast.dir/1005/1005cast.cpp.i
+.PHONY : 1005/1005cast.cpp.i
+
+1005/1005cast.s: 1005/1005cast.cpp.s
+
+.PHONY : 1005/1005cast.s
+
+# target to generate assembly for a file
+1005/1005cast.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005cast.dir\build.make CMakeFiles/1005cast.dir/1005/1005cast.cpp.s
+.PHONY : 1005/1005cast.cpp.s
+
+1005/1005castsecond.obj: 1005/1005castsecond.cpp.obj
+
+.PHONY : 1005/1005castsecond.obj
+
+# target to build an object file
+1005/1005castsecond.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005castsecond.dir\build.make CMakeFiles/1005castsecond.dir/1005/1005castsecond.cpp.obj
+.PHONY : 1005/1005castsecond.cpp.obj
+
+1005/1005castsecond.i: 1005/1005castsecond.cpp.i
+
+.PHONY : 1005/1005castsecond.i
+
+# target to preprocess a source file
+1005/1005castsecond.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005castsecond.dir\build.make CMakeFiles/1005castsecond.dir/1005/1005castsecond.cpp.i
+.PHONY : 1005/1005castsecond.cpp.i
+
+1005/1005castsecond.s: 1005/1005castsecond.cpp.s
+
+.PHONY : 1005/1005castsecond.s
+
+# target to generate assembly for a file
+1005/1005castsecond.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005castsecond.dir\build.make CMakeFiles/1005castsecond.dir/1005/1005castsecond.cpp.s
+.PHONY : 1005/1005castsecond.cpp.s
+
+1005/1005spellvector.obj: 1005/1005spellvector.cpp.obj
+
+.PHONY : 1005/1005spellvector.obj
+
+# target to build an object file
+1005/1005spellvector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005spellvector.dir\build.make CMakeFiles/1005spellvector.dir/1005/1005spellvector.cpp.obj
+.PHONY : 1005/1005spellvector.cpp.obj
+
+1005/1005spellvector.i: 1005/1005spellvector.cpp.i
+
+.PHONY : 1005/1005spellvector.i
+
+# target to preprocess a source file
+1005/1005spellvector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005spellvector.dir\build.make CMakeFiles/1005spellvector.dir/1005/1005spellvector.cpp.i
+.PHONY : 1005/1005spellvector.cpp.i
+
+1005/1005spellvector.s: 1005/1005spellvector.cpp.s
+
+.PHONY : 1005/1005spellvector.s
+
+# target to generate assembly for a file
+1005/1005spellvector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005spellvector.dir\build.make CMakeFiles/1005spellvector.dir/1005/1005spellvector.cpp.s
+.PHONY : 1005/1005spellvector.cpp.s
+
+1005/1005stack.obj: 1005/1005stack.cpp.obj
+
+.PHONY : 1005/1005stack.obj
+
+# target to build an object file
+1005/1005stack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005stack.dir\build.make CMakeFiles/1005stack.dir/1005/1005stack.cpp.obj
+.PHONY : 1005/1005stack.cpp.obj
+
+1005/1005stack.i: 1005/1005stack.cpp.i
+
+.PHONY : 1005/1005stack.i
+
+# target to preprocess a source file
+1005/1005stack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005stack.dir\build.make CMakeFiles/1005stack.dir/1005/1005stack.cpp.i
+.PHONY : 1005/1005stack.cpp.i
+
+1005/1005stack.s: 1005/1005stack.cpp.s
+
+.PHONY : 1005/1005stack.s
+
+# target to generate assembly for a file
+1005/1005stack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005stack.dir\build.make CMakeFiles/1005stack.dir/1005/1005stack.cpp.s
+.PHONY : 1005/1005stack.cpp.s
 
 1005/spellitright.obj: 1005/spellitright.cpp.obj
 
@@ -821,6 +994,33 @@ for_fun/justforfun.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\justforfun.dir\build.make CMakeFiles/justforfun.dir/for_fun/justforfun.cpp.s
 .PHONY : for_fun/justforfun.cpp.s
 
+for_fun/testforliyajun.obj: for_fun/testforliyajun.cpp.obj
+
+.PHONY : for_fun/testforliyajun.obj
+
+# target to build an object file
+for_fun/testforliyajun.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testforliyajun.dir\build.make CMakeFiles/testforliyajun.dir/for_fun/testforliyajun.cpp.obj
+.PHONY : for_fun/testforliyajun.cpp.obj
+
+for_fun/testforliyajun.i: for_fun/testforliyajun.cpp.i
+
+.PHONY : for_fun/testforliyajun.i
+
+# target to preprocess a source file
+for_fun/testforliyajun.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testforliyajun.dir\build.make CMakeFiles/testforliyajun.dir/for_fun/testforliyajun.cpp.i
+.PHONY : for_fun/testforliyajun.cpp.i
+
+for_fun/testforliyajun.s: for_fun/testforliyajun.cpp.s
+
+.PHONY : for_fun/testforliyajun.s
+
+# target to generate assembly for a file
+for_fun/testforliyajun.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\testforliyajun.dir\build.make CMakeFiles/testforliyajun.dir/for_fun/testforliyajun.cpp.s
+.PHONY : for_fun/testforliyajun.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -858,6 +1058,10 @@ help:
 	@echo ... rebuild_cache
 	@echo ... 10001
 	@echo ... 1001
+	@echo ... 1005cast
+	@echo ... 1005castsecond
+	@echo ... 1005spellvector
+	@echo ... 1005stack
 	@echo ... 1053
 	@echo ... 1087
 	@echo ... 1091
@@ -872,6 +1076,7 @@ help:
 	@echo ... justforfun
 	@echo ... practiceMap
 	@echo ... spellitright
+	@echo ... testforliyajun
 	@echo ... testsprintf
 	@echo ... testvector
 	@echo ... 1001/10001.obj
@@ -883,6 +1088,18 @@ help:
 	@echo ... 1001/testsprintf.obj
 	@echo ... 1001/testsprintf.i
 	@echo ... 1001/testsprintf.s
+	@echo ... 1005/1005cast.obj
+	@echo ... 1005/1005cast.i
+	@echo ... 1005/1005cast.s
+	@echo ... 1005/1005castsecond.obj
+	@echo ... 1005/1005castsecond.i
+	@echo ... 1005/1005castsecond.s
+	@echo ... 1005/1005spellvector.obj
+	@echo ... 1005/1005spellvector.i
+	@echo ... 1005/1005spellvector.s
+	@echo ... 1005/1005stack.obj
+	@echo ... 1005/1005stack.i
+	@echo ... 1005/1005stack.s
 	@echo ... 1005/spellitright.obj
 	@echo ... 1005/spellitright.i
 	@echo ... 1005/spellitright.s
@@ -925,6 +1142,9 @@ help:
 	@echo ... for_fun/justforfun.obj
 	@echo ... for_fun/justforfun.i
 	@echo ... for_fun/justforfun.s
+	@echo ... for_fun/testforliyajun.obj
+	@echo ... for_fun/testforliyajun.i
+	@echo ... for_fun/testforliyajun.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

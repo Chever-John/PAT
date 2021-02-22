@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/softengineering/Code/cpp/PAT/PAT/1005/1005spellvector.cpp
+iostream
+-
+vector
+-
+string
+-
+

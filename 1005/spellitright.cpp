@@ -26,9 +26,9 @@ int main(){
     int sum = 0;
     int result[1000];
 
-    for (int i = 0; i < num.size(); ++i) {
-        int digit = num[i] - 48;
-        sum += digit;
+    for (char i : num) {
+//        int digit = i - 48;
+        sum += i - 48;
     }
 
     if (sum == 0) {
