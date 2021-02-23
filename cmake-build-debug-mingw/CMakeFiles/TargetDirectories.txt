@@ -2,9 +2,12 @@ D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug-mingw/CMakeFiles/1098.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug-mingw/CMakeFiles/Test.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug-mingw/CMakeFiles/testvector.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug-mingw/CMakeFiles/1091.dir
+D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug-mingw/CMakeFiles/1006.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug-mingw/CMakeFiles/BFS.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug-mingw/CMakeFiles/justforfun.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug-mingw/CMakeFiles/1001.dir
+D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug-mingw/CMakeFiles/robahouse.dir
+D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug-mingw/CMakeFiles/1007test.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug-mingw/CMakeFiles/testsprintf.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug-mingw/CMakeFiles/10001.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug-mingw/CMakeFiles/1005stack.dir
@@ -21,5 +24,7 @@ D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug-mingw/CMakeFiles/111use_ne
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug-mingw/CMakeFiles/spellitright.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug-mingw/CMakeFiles/1005cast.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug-mingw/CMakeFiles/1005spellvector.dir
+D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug-mingw/CMakeFiles/climbStairs.dir
+D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug-mingw/CMakeFiles/SolutionForRobber.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir

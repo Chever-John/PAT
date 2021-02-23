@@ -181,6 +181,19 @@ testvector/fast:
 .PHONY : 1091/fast
 
 #=============================================================================
+# Target rules for targets named 1006
+
+# Build rule for target.
+1006: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1006
+.PHONY : 1006
+
+# fast build rule for target.
+1006/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1006.dir\build.make CMakeFiles/1006.dir/build
+.PHONY : 1006/fast
+
+#=============================================================================
 # Target rules for targets named BFS
 
 # Build rule for target.
@@ -218,6 +231,32 @@ justforfun/fast:
 1001/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1001.dir\build.make CMakeFiles/1001.dir/build
 .PHONY : 1001/fast
+
+#=============================================================================
+# Target rules for targets named robahouse
+
+# Build rule for target.
+robahouse: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 robahouse
+.PHONY : robahouse
+
+# fast build rule for target.
+robahouse/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\robahouse.dir\build.make CMakeFiles/robahouse.dir/build
+.PHONY : robahouse/fast
+
+#=============================================================================
+# Target rules for targets named 1007test
+
+# Build rule for target.
+1007test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1007test
+.PHONY : 1007test
+
+# fast build rule for target.
+1007test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1007test.dir\build.make CMakeFiles/1007test.dir/build
+.PHONY : 1007test/fast
 
 #=============================================================================
 # Target rules for targets named testsprintf
@@ -426,6 +465,32 @@ spellitright/fast:
 1005spellvector/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1005spellvector.dir\build.make CMakeFiles/1005spellvector.dir/build
 .PHONY : 1005spellvector/fast
+
+#=============================================================================
+# Target rules for targets named climbStairs
+
+# Build rule for target.
+climbStairs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 climbStairs
+.PHONY : climbStairs
+
+# fast build rule for target.
+climbStairs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\climbStairs.dir\build.make CMakeFiles/climbStairs.dir/build
+.PHONY : climbStairs/fast
+
+#=============================================================================
+# Target rules for targets named SolutionForRobber
+
+# Build rule for target.
+SolutionForRobber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SolutionForRobber
+.PHONY : SolutionForRobber
+
+# fast build rule for target.
+SolutionForRobber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SolutionForRobber.dir\build.make CMakeFiles/SolutionForRobber.dir/build
+.PHONY : SolutionForRobber/fast
 
 1001/10001.obj: 1001/10001.cpp.obj
 
@@ -642,6 +707,114 @@ spellitright/fast:
 1005/spellitright.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spellitright.dir\build.make CMakeFiles/spellitright.dir/1005/spellitright.cpp.s
 .PHONY : 1005/spellitright.cpp.s
+
+1006/1006.obj: 1006/1006.cpp.obj
+
+.PHONY : 1006/1006.obj
+
+# target to build an object file
+1006/1006.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1006.dir\build.make CMakeFiles/1006.dir/1006/1006.cpp.obj
+.PHONY : 1006/1006.cpp.obj
+
+1006/1006.i: 1006/1006.cpp.i
+
+.PHONY : 1006/1006.i
+
+# target to preprocess a source file
+1006/1006.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1006.dir\build.make CMakeFiles/1006.dir/1006/1006.cpp.i
+.PHONY : 1006/1006.cpp.i
+
+1006/1006.s: 1006/1006.cpp.s
+
+.PHONY : 1006/1006.s
+
+# target to generate assembly for a file
+1006/1006.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1006.dir\build.make CMakeFiles/1006.dir/1006/1006.cpp.s
+.PHONY : 1006/1006.cpp.s
+
+1007/1007test.obj: 1007/1007test.cpp.obj
+
+.PHONY : 1007/1007test.obj
+
+# target to build an object file
+1007/1007test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1007test.dir\build.make CMakeFiles/1007test.dir/1007/1007test.cpp.obj
+.PHONY : 1007/1007test.cpp.obj
+
+1007/1007test.i: 1007/1007test.cpp.i
+
+.PHONY : 1007/1007test.i
+
+# target to preprocess a source file
+1007/1007test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1007test.dir\build.make CMakeFiles/1007test.dir/1007/1007test.cpp.i
+.PHONY : 1007/1007test.cpp.i
+
+1007/1007test.s: 1007/1007test.cpp.s
+
+.PHONY : 1007/1007test.s
+
+# target to generate assembly for a file
+1007/1007test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1007test.dir\build.make CMakeFiles/1007test.dir/1007/1007test.cpp.s
+.PHONY : 1007/1007test.cpp.s
+
+1007/climbStairs.obj: 1007/climbStairs.cpp.obj
+
+.PHONY : 1007/climbStairs.obj
+
+# target to build an object file
+1007/climbStairs.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\climbStairs.dir\build.make CMakeFiles/climbStairs.dir/1007/climbStairs.cpp.obj
+.PHONY : 1007/climbStairs.cpp.obj
+
+1007/climbStairs.i: 1007/climbStairs.cpp.i
+
+.PHONY : 1007/climbStairs.i
+
+# target to preprocess a source file
+1007/climbStairs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\climbStairs.dir\build.make CMakeFiles/climbStairs.dir/1007/climbStairs.cpp.i
+.PHONY : 1007/climbStairs.cpp.i
+
+1007/climbStairs.s: 1007/climbStairs.cpp.s
+
+.PHONY : 1007/climbStairs.s
+
+# target to generate assembly for a file
+1007/climbStairs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\climbStairs.dir\build.make CMakeFiles/climbStairs.dir/1007/climbStairs.cpp.s
+.PHONY : 1007/climbStairs.cpp.s
+
+1007/robahouse.obj: 1007/robahouse.cpp.obj
+
+.PHONY : 1007/robahouse.obj
+
+# target to build an object file
+1007/robahouse.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\robahouse.dir\build.make CMakeFiles/robahouse.dir/1007/robahouse.cpp.obj
+.PHONY : 1007/robahouse.cpp.obj
+
+1007/robahouse.i: 1007/robahouse.cpp.i
+
+.PHONY : 1007/robahouse.i
+
+# target to preprocess a source file
+1007/robahouse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\robahouse.dir\build.make CMakeFiles/robahouse.dir/1007/robahouse.cpp.i
+.PHONY : 1007/robahouse.cpp.i
+
+1007/robahouse.s: 1007/robahouse.cpp.s
+
+.PHONY : 1007/robahouse.s
+
+# target to generate assembly for a file
+1007/robahouse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\robahouse.dir\build.make CMakeFiles/robahouse.dir/1007/robahouse.cpp.s
+.PHONY : 1007/robahouse.cpp.s
 
 1034/headofgang.obj: 1034/headofgang.cpp.obj
 
@@ -1062,6 +1235,8 @@ help:
 	@echo ... 1005castsecond
 	@echo ... 1005spellvector
 	@echo ... 1005stack
+	@echo ... 1006
+	@echo ... 1007test
 	@echo ... 1053
 	@echo ... 1087
 	@echo ... 1091
@@ -1069,12 +1244,15 @@ help:
 	@echo ... 111test0
 	@echo ... 111use_new
 	@echo ... BFS
+	@echo ... SolutionForRobber
 	@echo ... Test
+	@echo ... climbStairs
 	@echo ... cppusescanf
 	@echo ... headofgang
 	@echo ... headofgangexample
 	@echo ... justforfun
 	@echo ... practiceMap
+	@echo ... robahouse
 	@echo ... spellitright
 	@echo ... testforliyajun
 	@echo ... testsprintf
@@ -1103,6 +1281,18 @@ help:
 	@echo ... 1005/spellitright.obj
 	@echo ... 1005/spellitright.i
 	@echo ... 1005/spellitright.s
+	@echo ... 1006/1006.obj
+	@echo ... 1006/1006.i
+	@echo ... 1006/1006.s
+	@echo ... 1007/1007test.obj
+	@echo ... 1007/1007test.i
+	@echo ... 1007/1007test.s
+	@echo ... 1007/climbStairs.obj
+	@echo ... 1007/climbStairs.i
+	@echo ... 1007/climbStairs.s
+	@echo ... 1007/robahouse.obj
+	@echo ... 1007/robahouse.i
+	@echo ... 1007/robahouse.s
 	@echo ... 1034/headofgang.obj
 	@echo ... 1034/headofgang.i
 	@echo ... 1034/headofgang.s

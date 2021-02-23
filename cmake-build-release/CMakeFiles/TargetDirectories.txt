@@ -2,9 +2,12 @@ D:/softengineering/Code/cpp/PAT/PAT/cmake-build-release/CMakeFiles/1098.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-release/CMakeFiles/Test.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-release/CMakeFiles/testvector.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-release/CMakeFiles/1091.dir
+D:/softengineering/Code/cpp/PAT/PAT/cmake-build-release/CMakeFiles/1006.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-release/CMakeFiles/BFS.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-release/CMakeFiles/justforfun.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-release/CMakeFiles/1001.dir
+D:/softengineering/Code/cpp/PAT/PAT/cmake-build-release/CMakeFiles/robahouse.dir
+D:/softengineering/Code/cpp/PAT/PAT/cmake-build-release/CMakeFiles/1007test.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-release/CMakeFiles/testsprintf.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-release/CMakeFiles/10001.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-release/CMakeFiles/1005stack.dir
@@ -21,5 +24,7 @@ D:/softengineering/Code/cpp/PAT/PAT/cmake-build-release/CMakeFiles/111use_new.di
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-release/CMakeFiles/spellitright.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-release/CMakeFiles/1005cast.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-release/CMakeFiles/1005spellvector.dir
+D:/softengineering/Code/cpp/PAT/PAT/cmake-build-release/CMakeFiles/climbStairs.dir
+D:/softengineering/Code/cpp/PAT/PAT/cmake-build-release/CMakeFiles/SolutionForRobber.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-release/CMakeFiles/edit_cache.dir
 D:/softengineering/Code/cpp/PAT/PAT/cmake-build-release/CMakeFiles/rebuild_cache.dir
